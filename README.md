@@ -1,12 +1,31 @@
-# nlp1_hackaton_banks
-_Hackaton, supervised learning, binary classification and clustering_
+# NLP1 Hackathon: Bank Review Classification and Clustering
 
-### Description
+Welcome to the NLP1 Hackathon: Bank Review Classification and Clustering project! 🏦🔍
 
-In this competition our team create an alghoritm, which can classify bank reviews and clusterize them by meanings. 
+## Description
 
-We created a lot of features. For example: number of exclamation marks, answer signs, presence of phone number in review, names of banks, length of review, presence of date, number of caps symbols.
+In this competition, our team created an algorithm that can classify bank reviews and clusterize them by meanings.
 
-Analyzed the mood of reviews: we have made local bags of bad/good words, feature - difference between count of close and open brackets. Also, we have used library "nltk" to analyze the mood of review.
+### Features
 
-On these features we have trained the algorithm RandomForest and received predictions.
+We developed a variety of features to capture different aspects of the bank reviews, including:
+
+- Number of exclamation marks
+- Answer signs
+- Presence of phone number in the review
+- Names of banks
+- Length of the review
+- Presence of a date
+- Number of capital letters
+- etc.
+### Sentiment Analysis
+
+To analyze the mood of the reviews, we utilized various techniques:
+
+- We created local bags of bad/good words to identify positive and negative sentiments.
+- One of our features was the difference between the count of close and open brackets, which helped capture the sentiment of the review.
+- We leveraged the "nltk" library to analyze the mood of the reviews using natural language processing techniques.
+
+### Algorithm Training and Predictions
+
+Using these features, we trained a Random Forest algorithm for classification and clustering tasks. The algorithm learned from the provided labeled data and made predictions on unseen bank reviews.
